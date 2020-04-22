@@ -5,7 +5,6 @@
 
 h1, h2 {
     color: #A4A400;
-    background-color: #F0F0F0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
 }
@@ -13,10 +12,16 @@ h1 {
     text-align: center;
     font-size: 22pt;
 }
+
 h2 {
+    display: inline-block;
+    background-color: #F0F0F0;
     font-size: 18pt;
 }
-
+#title {
+    display: inline-block;
+    background-color: #F0F0F0;
+}
 ul {
     list-style-image: url("../images/recipeImages/pie_bullet.png");
 }
@@ -38,5 +43,10 @@ span {
 }
 
 #copyright {
-    align-content: left;
+    text-align: left;
+}
+
+#copyright-details {
+    display: inline-block;
+    text-align: right;
 }
