@@ -4,6 +4,10 @@ i {
     color: purple;
 }
 
+ol {
+    list-style-type: upper-roman;
+}
+
 a:visited {
     color:darkred;
     font-family: monospace;
@@ -18,6 +22,12 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 26pt;
     color: lime;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rebeccapurple;
 }
 
 .container {

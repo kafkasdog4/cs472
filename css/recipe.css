@@ -1,0 +1,27 @@
+.class-and-username {
+    background-color: limegreen;
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
+    font-size: 22pt;
+}
+h2 {
+    font-size: 18pt;
+}
+
+body{
+    background-color: white;
+    color:#404040;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #A4A400;
+}
