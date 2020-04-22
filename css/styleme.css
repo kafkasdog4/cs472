@@ -21,7 +21,7 @@ a:link {
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 26pt;
-    color: lime;
+    color: darkolivegreen;
 }
 
 h3 {
@@ -31,7 +31,7 @@ h3 {
 }
 
 .container {
-    background-color: darksalmon;
+    background-color: lightblue;
 }
 
 body {
