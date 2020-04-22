@@ -1,5 +1,6 @@
-.class-and-username {
-    background-color: limegreen;
+.comment-and-username {
+    background-color: #FFFFA8;
+    font-style: italic;
 }
 
 h1, h2 {
@@ -17,6 +18,9 @@ h2 {
 }
 
 body{
+    background-image: url("../images/recipeImages/silverware.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
     background-color: white;
     color:#404040;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,4 +28,12 @@ body{
 
 a {
     color: #A4A400;
+}
+
+span {
+    font-weight: bold;
+}
+
+#copyright {
+    align-content: left;
 }
