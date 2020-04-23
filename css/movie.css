@@ -19,7 +19,7 @@ body {
     background-image: url(../images/tmntImages/background.png);
     background-repeat: repeat;
 }
-h1 {
+h2 {
     font: 24pt bold Tahoma;
     text-shadow: #9999 3px 3px;
     text-align: center;
