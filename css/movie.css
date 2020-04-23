@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+}
+header {
+    height: 50px;
+    background-image: url(../images/tmntImages/bannerbg.png);
+    background-repeat: repeat;
+}
+#top-of-page {
+    display: block;
+    margin: auto;
+    top: 0px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image: url(../images/tmntImages/background.png);
+    background-repeat: repeat;
+}
+h1 {
+    font: 24pt bold Tahoma;
+    text-shadow: #9999 3px 3px;
+    text-align: center;
+}
+.center-container {
+    height: 100%;
+    width: 800px;
+    margin: auto;
+    border: solid;
+    border-color: gray;
+    border-width: 4px;
+    border-radius: 20px;
+}
+.review-and-reviewer {
+    width: 258.5px;
+    display: block;
+    margin: 5px;
+    float: right;
+}
+.review-and-reviewer  p {
+    font: 8pt Arial;
+}
+.rating-and-review {
+    background-color: #E8DC9B;
+    border: solid;
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 10px;
+    padding: 8px;
+}
+.rating-and-review p {
+    font-weight: bold;
+}
+.rating-pic {
+    float: left;
+    margin: 5px;
+}
+.critic-pic {
+    float: left;
+    margin: 5px;
+}
+#movie-info {
+    background-color: #A2B964;
+    font: 8pt Arial;
+    width: 250px;
+    float: right;
+}
+#top-of-center-container {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    background-image: url(../images/tmntImages/rbg.png);
+    background-repeat: repeat;
+    height: 83px;
+}
+#bottom-of-center-container {
+    text-align: center;
+    background-color: #A2B964;
+    clear: both;
+}
+footer {
+    float: right;
+}
+footer img {
+    opacity: 50%;
+}
