@@ -32,6 +32,7 @@ h1 {
     border-color: gray;
     border-width: 4px;
     border-radius: 20px;
+    overflow: auto;
 }
 .review-and-reviewer {
     width: 258.5px;
@@ -49,6 +50,7 @@ h1 {
     border-color: gray;
     border-radius: 10px;
     padding: 8px;
+    clear: both;
 }
 .rating-and-review p {
     font-weight: bold;
