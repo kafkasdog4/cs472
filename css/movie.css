@@ -12,7 +12,6 @@ header {
     top: 0px;
 }
 html, body {
-    height: 100%;
     margin: 0;
 }
 body {
@@ -25,8 +24,9 @@ h2 {
     text-align: center;
 }
 .center-container {
-    height: 100%;
+    display: block;
     width: 800px;
+    height: 100%;
     margin: auto;
     border: solid;
     border-color: gray;
@@ -34,40 +34,9 @@ h2 {
     border-radius: 20px;
     overflow: auto;
 }
-.review-and-reviewer {
-    width: 258.5px;
+#review-columns {
     display: block;
-    margin: 5px;
-    float: right;
-}
-.review-and-reviewer  p {
-    font: 8pt Arial;
-}
-.rating-and-review {
-    background-color: #E8DC9B;
-    border: solid;
-    border-width: 2px;
-    border-color: gray;
-    border-radius: 10px;
-    padding: 8px;
-    clear: both;
-}
-.rating-and-review p {
-    font-weight: bold;
-}
-.rating-pic {
-    float: left;
-    margin: 5px;
-}
-.critic-pic {
-    float: left;
-    margin: 5px;
-}
-#movie-info {
-    background-color: #A2B964;
-    font: 8pt Arial;
-    width: 250px;
-    float: right;
+    width: 550px; 
 }
 #top-of-center-container {
     font-size: 48pt;
@@ -76,7 +45,52 @@ h2 {
     background-image: url(../images/tmntImages/rbg.png);
     background-repeat: repeat;
     height: 83px;
+    margin-bottom: 5px;
 }
+.review-and-reviewer {
+    width: 47%;
+    display: block;
+    margin: 5px;
+    float: right;
+    overflow: hidden;
+}
+.review-and-reviewer  p {
+    display: block;
+    font: 8pt sans-serif;
+}
+.rating-and-review {
+    display: block;
+    background-color: #E8DC9B;
+    border: solid;
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+.rating-and-review p {
+    font-weight: bold;
+}
+.rating-pic {
+    float: left;
+    margin: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.critic-pic {
+    float: left;
+    margin: 5px;
+}
+#movie-info {
+    display: block;
+    width: 250px;
+    height: 100%;
+    background-color: #A2B964;
+    font: 8pt sans-serif;
+    float: right;
+    margin-left: 5px;
+}
+
 #bottom-of-center-container {
     text-align: center;
     background-color: #A2B964;
