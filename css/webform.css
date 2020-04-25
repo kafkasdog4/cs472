@@ -1,3 +1,9 @@
-div > button {
-    margin: 10px;
+.text-right {
+    margin-left: 10px;
+}
+
+footer {
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
 }
