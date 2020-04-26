@@ -102,6 +102,16 @@ function printFibo(n, a, b) {
     }
 }
 
+//14a       both a and b are here for unity, but probably belong on separate files when implementing
+this.document.getElementById("SignUpButton").onclick = function() {
+    const formData = document.pageForm.elements;
+    for (let i = 0; i < formData.length; i++) {
+        if (formData[i].type != "submit") {
+            console.log(formData[i].value);
+        }
+    }
+}
+//14b
 this.document.getElementById("SubmitButton").onclick = function() {
     const formData = document.productForm.elements;
     let w = window.open('', '', 'width=400,height=400,resizeable,scrollbars');
@@ -111,13 +121,6 @@ this.document.getElementById("SubmitButton").onclick = function() {
         }
     }
 }
-this.document.getElementById("SignUpButton").onclick = function() {
-    const formData = document.pageForm.elements;
-    for (let i = 0; i < formData.length; i++) {
-        if (formData[i].type != "submit") {
-            console.log(formData[i].value);
-        }
-    }
-}
+
     
 
