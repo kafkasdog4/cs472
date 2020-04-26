@@ -1,0 +1,22 @@
+
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#container {
+    text-align: center;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+#clock {
+    display: inline-block;
+    background-color: black;
+    font: bold 20pt arial;
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

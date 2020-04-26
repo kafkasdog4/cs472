@@ -101,3 +101,23 @@ function printFibo(n, a, b) {
         n--;
     }
 }
+
+this.document.getElementById("SubmitButton").onclick = function() {
+    const formData = document.productForm.elements;
+    let w = window.open('', '', 'width=400,height=400,resizeable,scrollbars');
+    for (let i = 0; i < formData.length; i++) {
+        if(formData[i].tagName != "button") {
+            w.document.write(formData[i].name + ": " + formData[i].value + "<br>");
+        }
+    }
+}
+this.document.getElementById("SignUpButton").onclick = function() {
+    const formData = document.pageForm.elements;
+    for (let i = 0; i < formData.length; i++) {
+        if (formData[i].type != "submit") {
+            console.log(formData[i].value);
+        }
+    }
+}
+    
+
