@@ -6,7 +6,7 @@ document.getElementById("decoration_button").onclick = function() {
 document.getElementById("decoration_checkbox").onchange = function() {
     let isChecked = document.getElementById("decoration_checkbox").checked;
     if (isChecked) {
-        changeFCDI("bold", "green", "undeline", "url(./images/hundred-dollar-bill.jpg)");
+        changeFCDI("bold", "green", "underline", "url(./images/hundred-dollar-bill.jpg)");
     } else {
         changeFCDI("normal", "black", "none", "none");
     }
