@@ -14,6 +14,7 @@ function maxOfThree(x, y, z) {
 }
 //3
 function isVowel(c) {
+    c = c.toLowerCase();
     if (c === 'a' || c === 'e' || c === 'i' || c === 'o' || c ==='u') {
         return true;
     } else {

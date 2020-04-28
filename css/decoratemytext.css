@@ -26,3 +26,6 @@ textarea {
 	font-family: monospace;
 	font-size: 12pt;
 }
+button {
+    margin-top: 1%;
+}
